@@ -14,6 +14,14 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20150826,Niedere Schreiberwand — Dachstein,UIAA
+ref:Route Info,http://www.adamek.at/images/pdf/Diagonale.pdf
+,Diagonale (with Hüttenpfeiler ending),5+,half lead half second,8 pitches of total length 300m
+
+20150824,Niedere Schreiberwand — Dachstein,UIAA
+ref:Route Info,http://nil.bz/raw/huettenpfeiler.pdf
+,Hüttenpfeiler,4,half lead half second,8 pitches of total length 300m
+
 20150524,Baby — Lhánice,UIAA
 ref:Route List,http://www.horosvaz.cz/skaly-sektor-557/
 16,Velká Baba - Stromovka,5,second,
@@ -25,14 +33,14 @@ ref:Route List,http://www.horosvaz.cz/skaly-sektor-557/
 
 20150510,Křížový vrch,Saxon
 ref:Route List,http://www.piskari.cz/cs/krizovy-vrch/
-ref:Foto,http://nil.bz/climbing/adrspach-052015/
+ref:Photos,http://nil.bz/climbing/adrspach-052015/
 ,Čertova stěna - Stěna a hrana,VI,second,
 ,Unavené kameny - JZ stěna,IV,second,
 ,Křížový král -  Jižní hrana,VIIa,second,
 
 20150509,Adršpach — Město,Saxon
 ref:Route Info,http://www.piskari.cz/cs/cesta/udolni-494/
-ref:Foto,http://nil.bz/climbing/adrspach-052015/
+ref:Photos,http://nil.bz/climbing/adrspach-052015/
 ,Želva - Údolní,VI,second,
 
 20150508,Křížový vrch,Saxon
