@@ -121,7 +121,7 @@ def generate_ferrata_log(in_file):
 
 def main():
 
-    p = optparse.OptionParser(description="Generate climbing log HTML page.", prog="doc-text-update", usage="%prog [-h|--help] -i DATAFILE [-o OUTPUTFILE]")
+    p = optparse.OptionParser(description="Generate climbing log HTML page.", usage="%prog [-h|--help] -i DATAFILE [-o OUTPUTFILE]")
     p.add_option('-i', '--input', dest="in_file",
                  action="store", help="Input file to load climbing data from.")
     p.add_option('-o', '--output', dest="out_file",
