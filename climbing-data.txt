@@ -1,0 +1,65 @@
+# Climbing log file
+# -----------------
+#
+# Every entry consists of a single header, any number of references, and at
+# least one route.
+#
+# Header format:
+# - [date - YYYYMMDD],[climbing location],[grading system]
+#
+# References format:
+# - line starts with "ref:"
+# - [anchor],[href]
+#
+#  Route format:
+# - [route number],[route name],[route grade],[ascend type],[notes]
+
+20150524,Baby — Lhánice,UIAA
+ref:Route List,http://www.horosvaz.cz/skaly-sektor-557/
+16,Velká Baba - Stromovka,5,second,
+7,Velká Baba - Černý komín,4,second,
+
+20150523,Baby — Lhánice,UIAA
+ref:Route List,http://www.horosvaz.cz/skaly-sektor-557/
+7,Velká Baba - Černý komín,4,lead,
+
+20150510,Křížový vrch,Saxon
+ref:Route List,http://www.piskari.cz/cs/krizovy-vrch/
+ref:Foto,http://nil.bz/climbing/adrspach-052015/
+,Čertova stěna - Stěna a hrana,VI,second,
+,Unavené kameny - JZ stěna,IV,second,
+,Křížový král -  Jižní hrana,VIIa,second,
+
+20150509,Adršpach — Město,Saxon
+ref:Route Info,http://www.piskari.cz/cs/cesta/udolni-494/
+ref:Foto,http://nil.bz/climbing/adrspach-052015/
+,Želva - Údolní,VI,second,
+
+20150508,Křížový vrch,Saxon
+ref:Route List,http://www.piskari.cz/cs/krizovy-vrch/krizovy-hreben-23/
+,Ovčák - Vnitřní komín,IV,second,
+,Křeslo - Křeslo pro hosta,VIIa,second,
+,Ovečka - Severozápadní spára,IV,second,
+,Ovečka - Zestárlá jehňátka,VIIb,second,
+,Opičí - Pašerácká stezka,V,second,
+
+20150429,Lom v Komíně,UIAA
+ref:Guide,http://www.nadzemi.cz/data/uploadHTML/images/P1100687.JPG
+4a,Plotnou,5+,top rope,
+5,Komíňákům,5,top rope,
+12,Varianta spárkou,6+,top rope,
+
+20150420,Helfštýn — První plotna (Okno),UIAA
+ref:Guide,http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn1.pdf
+6,Diretissima,3+,lead,
+5,...,5,top rope,
+4,Špička,5,lead,
+27,Pavouk,4,lead,
+26,Zuby Nehty,5,top rope,
+25,Pokrývačská,5,top rope,
+
+20150420,Helfštýn — Druhá plotna (Bezejmenná),UIAA
+ref:Guide,http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn1.pdf
+11,Vánoční,4,lead,
+13,Bezejmenná,3,lead,
+12,Plotnou,5+,top rope,

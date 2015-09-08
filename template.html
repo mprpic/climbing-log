@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./climbing-log.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1 class="main-header">Climbing Log</h1>
+    {% for table in data %}
+    <table id="{{ table[0] }}" class="table table-condensed" >
+      <caption>
+        <span class="table-header">{{ table[1] }}</span>
+        <span class="table-header">{{ table[2] }}</span>
+        <span class="table-header">{{ table[3] }}</span>
+        {% for ref in table[4] %}
+        <span class="refs"><a href="{{ ref[1] }}">{{ ref[0] }}</a></span>
+        {% endfor %}
+      </caption>
+      <thead>
+        <col width="10%">
+        <col width="35%">
+        <col width="10%">
+        <col width="15%">
+        <col width="30%">
+        <tr>
+          <th>Route #</th>
+          <th>Route Name</th>
+          <th>Grade</th>
+          <th>Ascend Type</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for route in table[5] %}
+        <tr>
+        {% for item in route %}
+          <td>{{ item }}</td>
+        {% endfor %}
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+  </body>
+</html>
