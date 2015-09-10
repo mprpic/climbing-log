@@ -31,12 +31,12 @@ def read_data_file(in_file):
 
     return text
 
-def save_to_data_file(data, out_file, template):
+def save_to_data_file(data, title, out_file, template):
 
     # Load up Jinja template and pass data
     env = Environment(loader=FileSystemLoader(dirname(realpath(__file__))))
     template = env.get_template(template)
-    rendered_html = template.render(data=data)
+    rendered_html = template.render(data=data, title=title)
 
     with open(out_file, "w") as f:
         f.write(rendered_html.encode("utf8"))
@@ -128,6 +128,8 @@ def main():
                  action="store", help="Output file (default is ./index.html)")
     p.add_option('-f', '--ferrata', dest="ferrata",
                  action="store_true", help="Create a ferrata log file")
+    p.add_option('-t', '--title', dest="title",
+                 action="store", help="Page title (default 'Climbing Log' or 'Ferrata Log')")
     (opts, args) = p.parse_args()
 
     if not opts.in_file:
@@ -137,11 +139,13 @@ def main():
     out_file = opts.out_file if opts.out_file else "./index.html"
 
     if opts.ferrata:
+        title = opts.title if opts.title else "Ferrata Log"
         data = generate_ferrata_log(opts.in_file)
-        save_to_data_file(data, out_file, FERRATA_TEMPLATE)
+        save_to_data_file(data, title, out_file, FERRATA_TEMPLATE)
     else:
+        title = opts.title if opts.title else "Climbing Log"
         data = generate_climbing_log(opts.in_file)
-        save_to_data_file(data, out_file, CLIMBING_TEMPLATE)
+        save_to_data_file(data, title, out_file, CLIMBING_TEMPLATE)
 
 if __name__ == "__main__":
     main()
