@@ -14,6 +14,15 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20150927,Čtyři Palice — Vysočina,UIAA
+ref:Route Info,http://www.goat.cz/index.php?path=Lezeni_ZdarskeVrchy_CtyriPalice_CtyriPalice
+9,Korso,3,lead,
+7,Korsičan,4,second,
+8,Korsika,3,second,
+11,Raketa,4+,second,
+20,Bašta,4,second,
+13,Zásek (Symetrála),3+,lead,
+
 20150826,Niedere Schreiberwand — Dachstein,UIAA
 ref:Route Info,http://www.adamek.at/images/pdf/Diagonale.pdf
 ,Diagonale (with Hüttenpfeiler ending),5+,half lead half second,8 pitches of total length 300m
