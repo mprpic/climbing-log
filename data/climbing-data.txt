@@ -14,6 +14,39 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20151117,Moravský Kras — Sloup,UIAA
+ref:Route Info,http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
+20,Normálka (Hřebenáč/Jižní stěna),4,lead,
+19,Gravitační (Hřebenáč/Jižní stěna),5,top rope,
+22,Hranou (Hřebenáč/Jižní stěna),4+,lead,
+
+20151028,Paklenica — Croatia,French
+A/18 8,Gea (Klanci/Sindrom),4b,lead,
+A/18 7,Orao (Klanci/Sindrom),5c,top rope,
+A/3 2,Wiener würstchen (Klanci/Auhe),5a,lead,
+A/3 4,Škorpion (Klanci/Auhe),4a,lead,
+
+20151027,Paklenica — Croatia,French
+G/18 3,Trik (Anića kuk/Stup),5a (4c/5a/5a/4b),pitches 1 and 3 lead,125m of nice climbing
+A/18 4,Vuga (Klanci/Sindrom),4c,lead,
+A/18 5,Kos (Klanci/Sindrom),5b,lead,
+A/18 6,Žuna (Klanci/Sindrom),5a,lead,
+
+20151026,Paklenica — Croatia,French
+H/1 4,Sjeverne rebro (Veliki Ćuk),4b (4a/4a/4a/4b/4b),pitches 1/3/5 lead,170m; easy airy climbing; last pitch was great
+A/15 9,Onaj tamo! (Klanci/Zava),5a,lead,
+A/15 10,Matane ti si car! (Klanci/Zava),5c+,top rope,
+A/11 4,Make up (Klanci/Lipotica),4c,lead,
+
+20151025,Paklenica — Croatia,French
+G/21 2,Bora (Anića kuk/W. face),4c,pitch 2 lead,2 pitches of 65m
+G/21 4,Catch the rainbow (Anića kuk/W. face),5a (3a/5a/4c),pitches 1 and 2 lead,100m; awesome (but hard) horizonval crack in second pitch
+A/15 7,Čuja ti si bog i batina! (Klanci/Zava),5a,lead,
+
+20151024,Paklenica — Croatia,French
+L 4,Josipa Debeljaka (Kuk Tisa),4a, half lead half second,7 pitches of total length 200m; ugly route
+A/15 6,Zava (Klanci/Zava),4b,lead,
+
 20150927,Čtyři Palice — Vysočina,UIAA
 ref:Route Info,http://www.goat.cz/index.php?path=Lezeni_ZdarskeVrchy_CtyriPalice_CtyriPalice
 9,Korso,3,lead,
