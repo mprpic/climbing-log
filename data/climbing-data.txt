@@ -14,6 +14,13 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20160423,Lom v Komíně,UIAA
+ref:Guide,http://www.goat.cz/Lezeni/Brno/_Guide/pdf/Komin2.pdf
+5,Komíňákům,5,lead,
+4a,Varianta nástupu Plotnou,5+,lead,
+3,Hlaďas,7-,top rope,
+16,Hartpes,6+,lead,
+
 20151117,Moravský Kras — Sloup,UIAA
 ref:Route Info,http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
 20,Normálka (Hřebenáč/Jižní stěna),4,lead,
@@ -94,7 +101,7 @@ ref:Route List,http://www.piskari.cz/cs/krizovy-vrch/krizovy-hreben-23/
 ,Opičí - Pašerácká stezka,V,second,
 
 20150429,Lom v Komíně,UIAA
-ref:Guide,http://www.nadzemi.cz/data/uploadHTML/images/P1100687.JPG
+ref:Guide,http://www.goat.cz/Lezeni/Brno/_Guide/pdf/Komin2.pdf
 4a,Plotnou,5+,top rope,
 5,Komíňákům,5,top rope,
 12,Varianta spárkou,6+,top rope,
