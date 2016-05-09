@@ -16,12 +16,12 @@
 
 20160509,Hohe Wand,UIAA
 ref:Topo,http://www.bergsteigen.com/sites/default/files/topos/2189_Topo_1cdc6bcb-8fd2-4abb-b1ae-6cf818dbe895_draschgrat_traum_und_wirklichkeit_topo.pdf
-,Traum und Wirklichkeit (with Draschgrat Schwer ending),6+/5+ (5/5+/5+/6+/5+/3),lead (1/3/5/6),very physical 6+ pitch
+2,Traum und Wirklichkeit (with Draschgrat Schwer ending),6+/5+ (5/5+/5+/6+/5+/3),lead (1/3/5/6),very physical 6+ pitch
 
 20160508,Hohe Wand,UIAA
 ref:B&P Topo,http://www.bergsteigen.com/sites/default/files/topos/1519_Topo_6616997f-96c7-42db-8a65-2dd0f2cb2693_betty%20und%20paul%20hohe%20wand%20topo.pdf
 ,Betty & Paul,6 (5-/5+/5-/5-/6),lead (2/4),
-,Draschgrat Schwer,5+,half lead,8 easy pitches; can be climbed two at a time
+4,Draschgrat Schwer,5+,half lead,8 easy pitches; can be climbed two at a time
 
 20160423,Lom v Komíně,UIAA
 ref:Guide,http://www.goat.cz/Lezeni/Brno/_Guide/pdf/Komin2.pdf
