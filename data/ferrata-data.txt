@@ -10,7 +10,7 @@
 # - line starts with "ref:"
 # - [anchor];[href]
 
-20150822:Kala Steig — Dachstein, Austria:B/C
+20160515:Kala Steig — Dachstein, Austria:B/C
 ref:Info;http://www.bergsteigen.com/sites/default/files/topos/2034_Topo_f23fd7ee-9ead-485d-91ca-c26a46654a0c_kalisteig_kalasteig_topo.pdf
 
 20150822:Königsjodler — Berchtesgadener Alpen, Austria:D
