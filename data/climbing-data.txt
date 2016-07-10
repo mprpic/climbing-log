@@ -14,6 +14,11 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20160708,Moravský Kras — Krkavčí skála,UIAA
+ref:Route Info,http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
+2,Korzo,5+,top rope,
+27,Mechový kout,5,top rope,
+
 20160509,Hohe Wand,UIAA
 ref:Topo,http://www.bergsteigen.com/sites/default/files/topos/2189_Topo_1cdc6bcb-8fd2-4abb-b1ae-6cf818dbe895_draschgrat_traum_und_wirklichkeit_topo.pdf
 2,Traum und Wirklichkeit (with Draschgrat Schwer ending),6+/5+ (5/5+/5+/6+/5+/3),lead (1/3/5/6),very physical 6+ pitch
