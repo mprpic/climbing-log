@@ -14,8 +14,24 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20160717,Peilstein,UIAA
+ref:Guide,http://www.goat.cz/Lezeni/Ostatni/_Guide/pdf/Peilstein.pdf
+M1,Terzettkamin,5- (5-/5-),lead,two pitches with tough chimney sections; 50m
+M3,Linkes Ufer,7,top rope,nice slab with single finger pockets
+J9,Nur für Kinder,3,lead,
+J11,NW-Wand,6-,lead,polished crack at the top
+J18,Stadler-Swoboda-Riss,5,lead,nice and very exposed in top sections
+
+20160716,Peilstein,UIAA
+ref:Guide,http://www.goat.cz/Lezeni/Ostatni/_Guide/pdf/Peilstein.pdf
+M22,Vegetarierkante,4 (3/4),lead, two pitches; 57m
+N66,NO-Kante,5+,lead,
+N65,Ja dürfen's den das?,7-,top rope,
+T5,Hahnenkammgrat,3,lead,nice exposed ridge
+T21,Outline,6,lead,
+
 20160708,Moravský Kras — Krkavčí skála,UIAA
-ref:Route Info,http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
+ref:Guide,http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
 2,Korzo,5+,top rope,
 27,Mechový kout,5,top rope,
 
@@ -69,7 +85,7 @@ L 4,Josipa Debeljaka (Kuk Tisa),4a, half lead half second,7 pitches of total len
 A/15 6,Zava (Klanci/Zava),4b,lead,
 
 20150927,Čtyři Palice — Vysočina,UIAA
-ref:Route Info,http://www.goat.cz/index.php?path=Lezeni_ZdarskeVrchy_CtyriPalice_CtyriPalice
+ref:Guide,http://www.goat.cz/index.php?path=Lezeni_ZdarskeVrchy_CtyriPalice_CtyriPalice
 9,Korso,3,lead,
 7,Korsičan,4,second,
 8,Korsika,3,second,
