@@ -14,6 +14,14 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20160814,Vysoké Tatry,UIAA
+ref:Info,http://horolezectvo.vetroplachmagazin.sk/volia-veza-2355m-najkrajsie-lezenie-625
+,Južné rebro (Volia veža),3,simul-climbed as second,
+
+20160813,Vysoké Tatry,UIAA
+ref:Info,http://www.tatry.nfo.sk/stena.php?kod=10350711:%8Eab%ED-k%F4%F2:2300
+,Východný hrebeň (Žabí kôň),3+,lead all (three) pitches,beautiful ridge climb
+
 20160717,Peilstein,UIAA
 ref:Guide,http://www.goat.cz/Lezeni/Ostatni/_Guide/pdf/Peilstein.pdf
 M1,Terzettkamin,5- (5-/5-),lead,two pitches with tough chimney sections; 50m
