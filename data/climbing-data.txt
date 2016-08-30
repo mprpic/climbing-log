@@ -14,6 +14,18 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20160825,Berchtesgaden Alps,UIAA
+ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/doriweg
+,Doriweg - Hochthron,5+ (5/4+/4+/3+/4/4-/4+/5+),led all pitches,Very well protected; very hot on a sunny day
+
+20160824,Berchtesgaden Alps,UIAA
+ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/logic-line
+,Logic Line - Schärtenspitze,4+,climbed as second/third,easy route with great views
+
+20160823,Berchtesgaden Alps,UIAA
+ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/jubilaeumsweg-hoher-goell
+,Jubiläumsweg - Hoher Göll,6- (5/5/1/5-/3/6-/3/3),climbed as second/third,skipped last three pitches because they were wet; 6- pitch was a great slab on delicate holds
+
 20160814,Vysoké Tatry,UIAA
 ref:Info,http://horolezectvo.vetroplachmagazin.sk/volia-veza-2355m-najkrajsie-lezenie-625
 ,Južné rebro (Volia veža),3,simul-climbed as second,
