@@ -14,25 +14,35 @@
 #  Route format:
 # - [route number],[route name],[route grade],[ascend type],[notes]
 
+20160925,Helfštýn,UIAA
+ref:Guide,http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn3.pdf
+5,Hříchy mládí (Odmítavá),5,lead,
+4,Ježíšek (Odmítavá),5,lead,
+6,Ptačí (Odmítavá),5,lead,
+11,Odmítavá (Odmítavá),7-,top rope
+16,Matterhornek (Matterhornek),6,top rope
+11,Vánoční (Bezejmenná),4,lead,
+16,Pravá varianta Pochlebníka (Bezejmenná),7+,top rope
+
 20160825,Berchtesgaden Alps,UIAA
 ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/doriweg
-,Doriweg - Hochthron,5+ (5/4+/4+/3+/4/4-/4+/5+),led all pitches,Very well protected; very hot on a sunny day
+n/a,Doriweg - Hochthron,5+ (5/4+/4+/3+/4/4-/4+/5+),led all pitches,Very well protected; very hot on a sunny day
 
 20160824,Berchtesgaden Alps,UIAA
 ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/logic-line
-,Logic Line - Schärtenspitze,4+,climbed as second/third,easy route with great views
+n/a,Logic Line - Schärtenspitze,4+,climbed as second/third,easy route with great views
 
 20160823,Berchtesgaden Alps,UIAA
 ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/jubilaeumsweg-hoher-goell
-,Jubiläumsweg - Hoher Göll,6- (5/5/1/5-/3/6-/3/3),climbed as second/third,skipped last three pitches because they were wet; 6- pitch was a great slab on delicate holds
+n/a,Jubiläumsweg - Hoher Göll,6- (5/5/1/5-/3/6-/3/3),climbed as second/third,skipped last three pitches because they were wet; 6- pitch was a great slab on delicate holds
 
 20160814,Vysoké Tatry,UIAA
 ref:Info,http://horolezectvo.vetroplachmagazin.sk/volia-veza-2355m-najkrajsie-lezenie-625
-,Južné rebro (Volia veža),3,simul-climbed as second,
+n/a,Južné rebro (Volia veža),3,simul-climbed as second,
 
 20160813,Vysoké Tatry,UIAA
 ref:Info,http://www.tatry.nfo.sk/stena.php?kod=10350711:%8Eab%ED-k%F4%F2:2300
-,Východný hrebeň (Žabí kôň),3+,lead all (three) pitches,beautiful ridge climb
+n/a,Východný hrebeň (Žabí kôň),3+,lead all (three) pitches,beautiful ridge climb
 
 20160717,Peilstein,UIAA
 ref:Guide,http://www.goat.cz/Lezeni/Ostatni/_Guide/pdf/Peilstein.pdf
@@ -61,7 +71,7 @@ ref:Topo,http://www.bergsteigen.com/sites/default/files/topos/2189_Topo_1cdc6bcb
 
 20160508,Hohe Wand,UIAA
 ref:B&P Topo,http://www.bergsteigen.com/sites/default/files/topos/1519_Topo_6616997f-96c7-42db-8a65-2dd0f2cb2693_betty%20und%20paul%20hohe%20wand%20topo.pdf
-,Betty & Paul,6 (5-/5+/5-/5-/6),lead (2/4),
+n/a,Betty & Paul,6 (5-/5+/5-/5-/6),lead (2/4),
 4,Draschgrat Schwer,5+,half lead,8 easy pitches; can be climbed two at a time
 
 20160423,Lom v Komíně,UIAA
@@ -115,11 +125,11 @@ ref:Guide,http://www.goat.cz/index.php?path=Lezeni_ZdarskeVrchy_CtyriPalice_Ctyr
 
 20150826,Niedere Schreiberwand — Dachstein,UIAA
 ref:Route Info,http://www.adamek.at/images/pdf/Diagonale.pdf
-,Diagonale (with Hüttenpfeiler ending),5+,half lead half second,8 pitches of total length 300m
+n/a,Diagonale (with Hüttenpfeiler ending),5+,half lead half second,8 pitches of total length 300m
 
 20150824,Niedere Schreiberwand — Dachstein,UIAA
 ref:Route Info,http://nil.bz/raw/huettenpfeiler.pdf
-,Hüttenpfeiler,4,half lead half second,8 pitches of total length 300m
+n/a,Hüttenpfeiler,4,half lead half second,8 pitches of total length 300m
 
 20150524,Baby — Lhánice,UIAA
 ref:Route List,http://www.horosvaz.cz/skaly-sektor-557/
@@ -133,22 +143,22 @@ ref:Route List,http://www.horosvaz.cz/skaly-sektor-557/
 20150510,Křížový vrch,Saxon
 ref:Route List,http://www.piskari.cz/cs/krizovy-vrch/
 ref:Photos,http://nil.bz/climbing/adrspach-052015/
-,Čertova stěna - Stěna a hrana,VI,second,
-,Unavené kameny - JZ stěna,IV,second,
-,Křížový král -  Jižní hrana,VIIa,second,
+n/a,Čertova stěna - Stěna a hrana,VI,second,
+n/a,Unavené kameny - JZ stěna,IV,second,
+n/a,Křížový král -  Jižní hrana,VIIa,second,
 
 20150509,Adršpach — Město,Saxon
 ref:Route Info,http://www.piskari.cz/cs/cesta/udolni-494/
 ref:Photos,http://nil.bz/climbing/adrspach-052015/
-,Želva - Údolní,VI,second,
+n/a,Želva - Údolní,VI,second,
 
 20150508,Křížový vrch,Saxon
 ref:Route List,http://www.piskari.cz/cs/krizovy-vrch/krizovy-hreben-23/
-,Ovčák - Vnitřní komín,IV,second,
-,Křeslo - Křeslo pro hosta,VIIa,second,
-,Ovečka - Severozápadní spára,IV,second,
-,Ovečka - Zestárlá jehňátka,VIIb,second,
-,Opičí - Pašerácká stezka,V,second,
+n/a,Ovčák - Vnitřní komín,IV,second,
+n/a,Křeslo - Křeslo pro hosta,VIIa,second,
+n/a,Ovečka - Severozápadní spára,IV,second,
+n/a,Ovečka - Zestárlá jehňátka,VIIb,second,
+n/a,Opičí - Pašerácká stezka,V,second,
 
 20150429,Lom v Komíně,UIAA
 ref:Guide,http://www.goat.cz/Lezeni/Brno/_Guide/pdf/Komin2.pdf
