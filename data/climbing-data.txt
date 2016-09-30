@@ -19,10 +19,10 @@ ref:Guide,http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn3.pdf
 5,Hříchy mládí (Odmítavá),5,lead,
 4,Ježíšek (Odmítavá),5,lead,
 6,Ptačí (Odmítavá),5,lead,
-11,Odmítavá (Odmítavá),7-,top rope
-16,Matterhornek (Matterhornek),6,top rope
+11,Odmítavá (Odmítavá),7-,top rope,
+16,Matterhornek (Matterhornek),6,top rope,
 11,Vánoční (Bezejmenná),4,lead,
-16,Pravá varianta Pochlebníka (Bezejmenná),7+,top rope
+16,Pravá varianta Pochlebníka (Bezejmenná),7+,top rope,
 
 20160825,Berchtesgaden Alps,UIAA
 ref:Route Info,http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/doriweg
