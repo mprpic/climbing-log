@@ -1,0 +1,703 @@
+# Climbing data
+# -------------
+#
+# Top-level schema description:
+#
+# * date (mandatory): date when routes were climbed; use PyYaml
+#   !!timestamp tag (e.g. "!!timestamp 2018-01-01")
+#
+# * location (mandatory): geographical location of the routes
+#
+# * grading (mandatory): grading system useg (e.g. UIAA)
+#
+# * references (optional): a list of objects where the key is used as a
+#   link name and value is used as a link in an <a> tag.
+#
+# * routes (mandatory): a list of climbing route objects
+#
+#  Climbing route schema description:
+#
+# * name (mandatory): name of the route as specified in a guide book
+#
+# * grade (mandatory): difficulty grade of the route (multiple grades can
+#   be specified in parentheses after main grade for multi-pitch routes)
+#
+# * style (mandatory): style of ascend (e.g. top rope, lead)
+#
+# * number (optional): route number as specified in a guide book
+#
+# * sector (optional): sector or area where route is located
+#
+# * notes (optional): free-form text to note additional information
+#
+
+-
+  date: !!timestamp 2016-09-25
+  location: Helfštýn
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn3.pdf
+  routes:
+  - number: 5
+    sector: Odmítavá
+    name: Hříchy mládí
+    grade: 5
+    style: lead
+  - number: 4
+    sector: Odmítavá
+    name: Ježíšek
+    grade: 5
+    style: lead
+  - number: 6
+    sector: Odmítavá
+    name: Ptačí
+    grade: 5
+    style: lead
+  - number: 11
+    sector: Odmítavá
+    name: Odmítavá
+    grade: 7-
+    style: top rope
+  - number: 16
+    sector: Matterhornek
+    name: Matterhornek
+    grade: 6
+    style: top rope
+  - number: 11
+    sector: Bezejmenná
+    name: Vánoční
+    grade: 4
+    style: lead
+  - number: 16
+    sector: Bezejmenná
+    name: Pravá varianta Pochlebníka
+    grade: 7+
+    style: top rope
+
+-
+  date: !!timestamp 2016-08-25
+  location: Berchtesgaden Alps
+  grading: UIAA
+  references:
+  - Route Info: http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/doriweg
+  routes:
+    sector: Hochthron
+    name: Doriweg
+    grade: 5+ (5/4+/4+/3+/4/4-/4+/5+)
+    style: lead
+    notes: Very well protected; very hot on a sunny day, shoes almost melted
+
+-
+  date: !!timestamp 2016-08-24
+  location: Berchtesgaden Alps
+  grading: UIAA
+  references:
+  - Route Info: http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/logic-line
+  routes:
+    sector: Schärtenspitze
+    name: Logic Line
+    grade: 4+
+    style: climbed as second/third
+    notes: easy route with great views
+
+-
+  date: !!timestamp 2016-08-23
+  location: Berchtesgaden Alps
+  grading: UIAA
+  references:
+  - Route Info: http://www.bergsteigen.com/klettern/bayern/berchtesgadener-alpen/jubilaeumsweg-hoher-goell
+  routes:
+  - number: n/a
+    sector:
+    name: Jubiläumsweg - Hoher Göll
+    grade: 6- (5/5/1/5-/3/6-/3/3)
+    style: climbed as second/third
+    notes: skipped last three pitches because they were wet; 6- pitch was a great slab on delicate holds
+
+-
+  date: !!timestamp 2016-08-14
+  location: Vysoké Tatry
+  grading: UIAA
+  references:
+  - Info: http://horolezectvo.vetroplachmagazin.sk/volia-veza-2355m-najkrajsie-lezenie-625
+  routes:
+  - number: n/a
+    sector:
+    name: Južné rebro (Volia veža)
+    grade: 3
+    style: simul-climbed as second
+    notes:
+
+-
+  date: !!timestamp 2016-08-13
+  location: Vysoké Tatry
+  grading: UIAA
+  references:
+  - Info: http://www.tatry.nfo.sk/stena.php?kod=10350711:%8Eab%ED-k%F4%F2:2300
+  routes:
+  - sector: Žabí kôň
+    name: Východný hrebeň
+    grade: 3+
+    style: lead
+    notes: beautiful ridge climb
+
+-
+  date: !!timestamp 2016-07-17
+  location: Peilstein
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Ostatni/_Guide/pdf/Peilstein.pdf
+  routes:
+  - number: M1
+    name: Terzettkamin
+    grade: 5- (5-/5-)
+    style: lead
+    notes: two pitches with tough chimney sections; 50m
+  - number: M3
+    name: Linkes Ufer
+    grade: 7
+    style: top rope
+    notes: nice slab with single-finger pockets
+  - number: J9
+    name: Nur für Kinder
+    grade: 3
+    style: lead
+  - number: J11
+    name: NW-Wand
+    grade: 6-
+    style: lead
+    notes: polished crack at the top
+  - number: J18
+    name: Stadler-Swoboda-Riss
+    grade: 5
+    style: lead
+    notes: nice and very exposed in top sections
+
+-
+  date: !!timestamp 2016-07-16
+  location: Peilstein
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Ostatni/_Guide/pdf/Peilstein.pdf
+  routes:
+  - number: M22
+    name: Vegetarierkante
+    grade: 4 (3/4)
+    style: lead
+    notes:  two pitches; 57m
+  - number: N66
+    name: NO-Kante
+    grade: 5+
+    style: lead
+  - number: N65
+    name: Ja dürfen's den das?
+    grade: 7-
+    style: top rope
+  - number: T5
+    name: Hahnenkammgrat
+    grade: 3
+    style: lead
+    notes: nice exposed ridge
+  - number: T21
+    name: Outline
+    grade: 6
+    style: lead
+
+-
+  date: !!timestamp 2016-07-08
+  location: Moravský kras  — Josefovské údolí (okolí Býčí skály)
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
+  routes:
+  - number: 2
+    sector: Krkavčí skála
+    name: Korzo
+    grade: 5+
+    style: top rope
+  - number: 27
+    sector: Krkavčí skála
+    name: Mechový kout
+    grade: 5
+    style: top rope
+
+-
+  date: !!timestamp 2016-05-09
+  location: Hohe Wand
+  grading: UIAA
+  references:
+  - Topo: http://www.bergsteigen.com/sites/default/files/topos/2189_Topo_1cdc6bcb-8fd2-4abb-b1ae-6cf818dbe895_draschgrat_traum_und_wirklichkeit_topo.pdf
+  routes:
+  - number: 2
+    name: Traum und Wirklichkeit (Draschgrat Schwer ending)
+    grade: 6+/5+ (5/5+/5+/6+/5+/3)
+    style: lead (1/3/5/6)
+    notes: very physical 6+ pitch
+
+-
+  date: !!timestamp 2016-05-08
+  location: Hohe Wand
+  grading: UIAA
+  references:
+  - B&P Topo: http://www.bergsteigen.com/sites/default/files/topos/1519_Topo_6616997f-96c7-42db-8a65-2dd0f2cb2693_betty%20und%20paul%20hohe%20wand%20topo.pdf
+  routes:
+  - number: n/a
+    name: Betty & Paul
+    grade: 6 (5-/5+/5-/5-/6)
+    style: lead (2/4)
+  - number: 4
+    name: Draschgrat Schwer
+    grade: 5+
+    style: half lead
+    notes: 8 easy pitches; can be climbed two at a time
+
+-
+  date: !!timestamp 2016-04-23
+  location: Lom v Komíně
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Brno/_Guide/pdf/Komin2.pdf
+  routes:
+  - number: 5
+    sector: Hart
+    name: Komíňákům
+    grade: 5
+    style: lead
+  - number: 4a
+    sector: Hart
+    name: Varianta nástupu Plotnou
+    grade: 5+
+    style: lead
+  - number: 3
+    sector: Hart
+    name: Hlaďas
+    grade: 7-
+    style: top rope
+  - number: 16
+    sector: Hart
+    name: Hartpes
+    grade: 6+
+    style: lead
+
+-
+  date: !!timestamp 2015-11-17
+  location: Moravský Kras — Sloup
+  grading: UIAA
+  references:
+  - Route: Info,http://www.goat.cz/Lezeni/MoravskyKras/_Guide/pdf/MoravskyKras2.pdf
+  routes:
+  - number: 20
+    sector: Hřebenáč/Jižní stěna
+    name: Normálka
+    grade: 4
+    style: lead
+  - number: 19
+    sector: Hřebenáč/Jižní stěna
+    name: Gravitační
+    grade: 5
+    style: top rope
+  - number: 22
+    sector: Hřebenáč/Jižní stěna
+    name: Hranou
+    grade: 4+
+    style: lead
+
+-
+  date: !!timestamp 2015-10-28
+  location: Paklenica — Croatia
+  grading: French
+  - number: A/18 8
+    sector: Klanci/Sindrom
+    name: Gea
+    grade: 4b
+    style: lead
+  - number: A/18 7
+    sector: Klanci/Sindrom
+    name: Orao
+    grade: 5c
+    style: top rope
+  - number: A/3 2
+    sector: Klanci/Auhe
+    name: Wiener würstchen
+    grade: 5a
+    style: lead
+  - number: A/3 4
+    sector: Klanci/Auhe
+    name: Škorpion
+    grade: 4a
+    style: lead
+
+-
+  date: !!timestamp 2015-10-27
+  location: Paklenica — Croatia
+  grading: French
+  routes:
+  - number: G/18 3
+    sector: Anića kuk/Stup
+    name: Trik
+    grade: 5a (4c/5a/5a/4b)
+    style: pitches 1 and 3 lead
+    notes: 125m of nice climbing
+  - number: A/18 4
+    sector: Klanci/Sindrom
+    name: Vuga
+    grade: 4c
+    style: lead
+  - number: A/18 5
+    sector: Klanci/Sindrom
+    name: Kos
+    grade: 5b
+    style: lead
+  - number: A/18 6
+    sector: Klanci/Sindrom
+    name: Žuna
+    grade: 5a
+    style: lead
+
+-
+  date: !!timestamp 2015-10-26
+  location: Paklenica — Croatia
+  grading: French
+  - number: H/1 4
+    sector: Veliki Ćuk
+    name: Sjeverne rebro
+    grade: 4b (4a/4a/4a/4b/4b)
+    style: pitches 1, 3, and 5 lead
+    notes: 170m; easy airy climbing; last pitch was great
+  - number: A/15 9
+    sector: Klanci/Zava
+    name: Onaj tamo!
+    grade: 5a
+    style: lead
+  - number: A/15 10
+    sector: Klanci/Zava
+    name: Matane ti si car!
+    grade: 5c+
+    style: top rope
+  - number: A/11 4
+    sector: Klanci/Lipotica
+    name: Make up
+    grade: 4c
+    style: lead
+
+-
+  date: !!timestamp 2015-10-25
+  location: Paklenica — Croatia
+  grading: French
+  - number: G/21 2
+    sector:
+    name: Bora (Anića kuk/W. face)
+    grade: 4c
+    style: pitch 2 lead
+    notes: 2 pitches of 65m
+  - number: G/21 4
+    sector:
+    name: Catch the rainbow (Anića kuk/W. face)
+    grade: 5a (3a/5a/4c)
+    style: pitches 1 and 2 lead
+    notes: 100m; awesome (but hard) horizontal crack in second pitch
+  - number: A/15 7
+    sector:
+    name: Čuja ti si bog i batina! (Klanci/Zava)
+    grade: 5a
+    style: lead
+    notes:
+
+-
+  date: !!timestamp 2015-10-24
+  location: Paklenica — Croatia
+  grading: French
+  - number: L 4
+    sector:
+    name: Josipa Debeljaka (Kuk Tisa)
+    grade: 4a
+    style:  half lead half second
+    notes: 7 pitches of total length 200m; ugly route
+  - number: A/15 6
+    sector:
+    name: Zava (Klanci/Zava)
+    grade: 4b
+    style: lead
+    notes:
+
+-
+  date: !!timestamp 2015-09-27
+  location: Čtyři Palice — Vysočina
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/index.php?path=Lezeni_ZdarskeVrchy_CtyriPalice_CtyriPalice
+  routes:
+  - number: 9
+    sector:
+    name: Korso
+    grade: 3
+    style: lead
+    notes:
+  - number: 7
+    sector:
+    name: Korsičan
+    grade: 4
+    style: second
+    notes:
+  - number: 8
+    sector:
+    name: Korsika
+    grade: 3
+    style: second
+    notes:
+  - number: 11
+    sector:
+    name: Raketa
+    grade: 4+
+    style: second
+    notes:
+  - number: 20
+    sector:
+    name: Bašta
+    grade: 4
+    style: second
+    notes:
+  - number: 13
+    sector:
+    name: Zásek (Symetrála)
+    grade: 3+
+    style: lead
+    notes:
+
+-
+  date: !!timestamp 2015-08-26
+  location: Niedere Schreiberwand — Dachstein
+  grading: UIAA
+  references:
+  - Route: Info,http://www.adamek.at/images/pdf/Diagonale.pdf
+  routes:
+  - number: n/a
+    sector:
+    name: Diagonale (with Hüttenpfeiler ending)
+    grade: 5+
+    style: half lead half second
+    notes: 8 pitches of total length 300m
+
+-
+  date: !!timestamp 2015-08-24
+  location: Niedere Schreiberwand — Dachstein
+  grading: UIAA
+  references:
+  - Route: Info,http://nil.bz/raw/huettenpfeiler.pdf
+  routes:
+  - number: n/a
+    sector:
+    name: Hüttenpfeiler
+    grade: 4
+    style: half lead half second
+    notes: 8 pitches of total length 300m
+
+-
+  date: !!timestamp 2015-05-24
+  location: Baby — Lhánice
+  grading: UIAA
+  references:
+  - Route: List,http://www.horosvaz.cz/skaly-sektor-557/
+  routes:
+  - number: 16
+    sector:
+    name: Velká Baba - Stromovka
+    grade: 5
+    style: second
+    notes:
+  - number: 7
+    sector:
+    name: Velká Baba - Černý komín
+    grade: 4
+    style: second
+    notes:
+
+-
+  date: !!timestamp 2015-05-23
+  location: Baby — Lhánice
+  grading: UIAA
+  references:
+  - Route List: http://www.horosvaz.cz/skaly-sektor-557/
+  routes:
+  - number: 7
+    sector:
+    name: Velká Baba - Černý komín
+    grade: 4
+    style: lead
+    notes:
+
+-
+  date: !!timestamp 2015-05-10
+  location: Křížový vrch
+  grading: Saxon
+  references:
+  - Route List: http://www.piskari.cz/cs/krizovy-vrch/
+  - Photos: http://nil.bz/climbing/adrspach-052015/
+  routes:
+  - number: n/a
+    sector:
+    name: Čertova stěna - Stěna a hrana
+    grade: VI
+    style: second
+    notes:
+  - number: n/a
+    sector:
+    name: Unavené kameny - JZ stěna
+    grade: IV
+    style: second
+    notes:
+  - number: n/a
+    sector:
+    name: Křížový král -  Jižní hrana
+    grade: VIIa
+    style: second
+    notes:
+
+-
+  date: !!timestamp 2015-05-09
+  location: Adršpach — Město
+  grading: Saxon
+  references:
+  - Route Info: http://www.piskari.cz/cs/cesta/udolni-494/
+  - Photos: http://nil.bz/climbing/adrspach-052015/
+  routes:
+  - number: n/a
+    sector:
+    name: Želva - Údolní
+    grade: VI
+    style: second
+    notes:
+
+-
+  date: !!timestamp 2015-05-08
+  location: Křížový vrch
+  grading: Saxon
+  references:
+  - Route List: http://www.piskari.cz/cs/krizovy-vrch/krizovy-hreben-23/
+  routes:
+  - number: n/a
+    sector:
+    name: Ovčák - Vnitřní komín
+    grade: IV
+    style: second
+    notes:
+  - number: n/a
+    sector:
+    name: Křeslo - Křeslo pro hosta
+    grade: VIIa
+    style: second
+    notes:
+  - number: n/a
+    sector:
+    name: Ovečka - Severozápadní spára
+    grade: IV
+    style: second
+    notes:
+  - number: n/a
+    sector:
+    name: Ovečka - Zestárlá jehňátka
+    grade: VIIb
+    style: second
+    notes:
+  - number: n/a
+    sector:
+    name: Opičí - Pašerácká stezka
+    grade: V
+    style: second
+    notes:
+
+-
+  date: !!timestamp 2015-04-29
+  location: Lom v Komíně
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Brno/_Guide/pdf/Komin2.pdf
+  routes:
+  - number: 4a
+    sector:
+    name: Plotnou
+    grade: 5+
+    style: top rope
+    notes:
+  - number: 5
+    sector:
+    name: Komíňákům
+    grade: 5
+    style: top rope
+    notes:
+  - number: 12
+    sector:
+    name: Varianta spárkou
+    grade: 6+
+    style: top rope
+    notes:
+
+-
+  date: !!timestamp 2015-04-20
+  location: Helfštýn — První plotna (Okno)
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn1.pdf
+  routes:
+  - number: 6
+    sector:
+    name: Diretissima
+    grade: 3+
+    style: lead
+    notes:
+  - number: 5
+    sector:
+    name: ...
+    grade: 5
+    style: top rope
+    notes:
+  - number: 4
+    sector:
+    name: Špička
+    grade: 5
+    style: lead
+    notes:
+  - number: 27
+    sector:
+    name: Pavouk
+    grade: 4
+    style: lead
+    notes:
+  - number: 26
+    sector:
+    name: Zuby Nehty
+    grade: 5
+    style: top rope
+    notes:
+  - number: 25
+    sector:
+    name: Pokrývačská
+    grade: 5
+    style: top rope
+    notes:
+
+-
+  date: !!timestamp 2015-04-20
+  location: Helfštýn — Druhá plotna (Bezejmenná)
+  grading: UIAA
+  references:
+  - Guide: http://www.goat.cz/Lezeni/Olomoucko/_Guide/pdf/Helfstyn1.pdf
+  routes:
+  - number: 11
+    sector:
+    name: Vánoční
+    grade: 4
+    style: lead
+    notes:
+  - number: 13
+    sector:
+    name: Bezejmenná
+    grade: 3
+    style: lead
+    notes:
+  - number: 12
+    sector:
+    name: Plotnou
+    grade: 5+
+    style: top rope
+    notes:

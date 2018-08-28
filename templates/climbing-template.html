@@ -4,20 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/static/css/log.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="log.css" type="text/css" />
     <title>{{ title }}</title>
     <link rel="icon" href="/static/images/favicon.ico">
   </head>
   <body>
     <h1 class="main-header">Climbing Log</h1>
-    {% for table in data %}
-    <table id="{{ table[0] }}" class="table table-condensed" >
+    {% for date, location, grading, refs, routes in data %}
+    <table id="{{ date.strftime('%Y%m%d') }}" class="table table-condensed" >
       <caption>
-        <span class="table-header">{{ table[1] }}</span>
-        <span class="table-header">{{ table[2] }}</span>
-        <span class="table-header">{{ table[3] }}</span>
-        {% for ref in table[4] %}
-        <span class="refs"><a href="{{ ref[1] }}">{{ ref[0] }}</a></span>
+        <span class="table-header">
+          <span>{{ date.strftime('%B %e, %Y') }}</span>
+          <span class="table-header-bullet">&bull;</span>
+          <span>{{ location }}</span>
+          <a class="table-header-link-icon" href="#{{ date.strftime('%Y%m%d') }}">&#x1f517;</a>
+        </span>
+        {% for anchor, link in refs %}
+        <span class="refs"><a href="{{ link }}">{{ anchor }}</a></span>
         {% endfor %}
       </caption>
       <thead>
@@ -27,15 +30,15 @@
         <col width="15%">
         <col width="35%">
         <tr>
-          <th>Route #</th>
-          <th>Route Name</th>
-          <th>Grade</th>
-          <th>Ascend Type</th>
+          <th>Num</th>
+          <th>Name</th>
+          <th>Grade ({{ grading }})</th>
+          <th>Style</th>
           <th>Notes</th>
         </tr>
       </thead>
       <tbody>
-      {% for route in table[5] %}
+      {% for route in routes %}
         <tr>
         {% for item in route %}
           <td>{{ item }}</td>

@@ -2,7 +2,7 @@
 
 import re
 import sys
-import optparse
+import argparse
 from os.path import isfile, realpath, dirname
 from datetime import datetime
 try:
@@ -33,15 +33,14 @@ def read_data_file(in_file):
     return text
 
 
-def save_to_data_file(data, title, out_file, template):
+def create_html(data, title, template):
 
     # Load up Jinja template and pass data
     env = Environment(loader=FileSystemLoader(dirname(realpath(__file__))))
     template = env.get_template(template)
     rendered_html = template.render(data=data, title=title)
 
-    with open(out_file, 'w') as f:
-        f.write(rendered_html.encode('utf8'))
+    return rendered_html
 
 
 def generate_climbing_log(in_file):
@@ -58,7 +57,7 @@ def generate_climbing_log(in_file):
                 if line.count(',') != 2:
                     print('ERROR: Invalid syntax! Could not parse:\n\n%s' % line)
                     sys.exit(1)
-                date, place, grading = line.split(',', 3)
+                date_string, place, grading = line.split(',', 3)
                 continue
 
             if line.startswith('ref:'):
@@ -77,12 +76,12 @@ def generate_climbing_log(in_file):
             print('ERROR: Could not parse any routes from:\n\n%s' % entry)
             sys.exit(1)
 
-        if not (date and place and grading):
+        if not (date_string and place and grading):
             print('ERROR: Could not parse date/place/grading from:\n\n%s' % entry)
             sys.exit(1)
 
         human_date = datetime.strptime(date, '%Y%m%d').strftime('%B %e, %Y')
-        data.append([date, human_date, place, grading, refs, routes])
+        data.append([date_string, place, grading, refs, routes])
 
     return data
 
@@ -126,31 +125,29 @@ def generate_ferrata_log(in_file):
 
 def main():
 
-    p = optparse.OptionParser(description='Generate climbing log HTML page.', usage='%prog [-h|--help] -i DATAFILE [-o OUTPUTFILE]')
-    p.add_option('-i', '--input', dest='in_file',
-                 action='store', help='Input file to load climbing data from.')
+    p = argparse.ArgumentParser(description='Generate climbing log HTML page.')
+    p.add_option('-i', '--input', dest='in_file', required=True,
+                 action='store', help='input file to load climbing data from')
     p.add_option('-o', '--output', dest='out_file',
-                 action='store', help='Output file (default is ./index.html)')
+                 action='store', help='output file (default: "./index.html")')
     p.add_option('-f', '--ferrata', dest='ferrata',
-                 action='store_true', help='Create a ferrata log file')
+                 action='store_true', help='create a ferrata log HTML page')
     p.add_option('-t', '--title', dest='title',
-                 action='store', help='Page title (default "Climbing Log" or "Ferrata Log")')
-    (opts, args) = p.parse_args()
+                 action='store', help='page title (default "Climbing Log" or "Ferrata Log")')
+    args = p.parse_args()
 
-    if not opts.in_file:
-        p.error('You must specify an input file!')
-        sys.exit(1)
+    data = generate_ferrata_log(args.in_file)
 
-    out_file = opts.out_file if opts.out_file else './index.html'
-
-    if opts.ferrata:
-        title = opts.title if opts.title else 'Ferrata Log'
-        data = generate_ferrata_log(opts.in_file)
-        save_to_data_file(data, title, out_file, FERRATA_TEMPLATE)
+    if args.ferrata:
+        title = args.title if args.title else 'Ferrata Log'
+        html = create_html(data, title, FERRATA_TEMPLATE)
     else:
-        title = opts.title if opts.title else 'Climbing Log'
-        data = generate_climbing_log(opts.in_file)
-        save_to_data_file(data, title, out_file, CLIMBING_TEMPLATE)
+        title = args.title if args.title else 'Climbing Log'
+        html = create_html(data, title, CLIMBING_TEMPLATE)
+
+    out_file = args.out_file if args.out_file else './index.html'
+    with open(out_file, 'w') as f:
+        f.write(html.encode('utf8'))
 
 if __name__ == '__main__':
     main()
